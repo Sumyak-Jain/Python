@@ -1,0 +1,5 @@
+n=int(input())
+eng=set(input().split())
+m=int(input())
+fer=set(input().split())
+print(len(eng.difference(fer)))
